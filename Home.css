@@ -1,0 +1,104 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Container for the home page */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading and welcome text */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Floating welcome text */
+.floating-text {
+    font-size: 24px;
+    color: #2C3E50;
+    text-align: center;
+    background-color: #f39c12;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+/* Marquee for scrolling welcome message */
+marquee {
+    font-size: 20px;
+    color: #16a085;
+    font-weight: bold;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    background-color: #16a085;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #1abc9c;
+}
+
+/* Footer with developer information */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3498db;
+}
